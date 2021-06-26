@@ -1,0 +1,82 @@
+/* CSS reset */
+body{
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.left{
+    position: absolute;
+    display: inline-block;
+    border: 2px solid red;
+    top: 20px;
+    left: 34px;
+
+}
+.left img{
+    width: 80px;
+    filter: invert(100%);
+}
+
+
+.mid{
+    display: block;
+    width: 43%;
+    
+    margin: 20px auto;
+    border: 2px solid blue;
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 23px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+
+.right{
+    position: absolute;
+    display: inline-block;
+    border: 2px solid yellow;
+    right: 34px;
+    top: 20px;
+    
+}
+.btn{
+    font-family: 'Baloo 2', cursive;
+    margin: 9px;
+    background-color: black;
+    padding: 6px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(84, 88, 84);
+}
+
+.container{
+    border: 2px solid green;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    width: 33%;
+    border-radius: 2px;
+
+}
